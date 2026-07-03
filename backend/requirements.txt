@@ -1,0 +1,7 @@
+# Lower bounds chosen so pip can resolve wheels for the installed Python
+# (3.14 needs recent pydantic-core/uvicorn builds). Pin exact versions in a
+# lockfile if you deploy.
+fastapi>=0.115.6
+uvicorn[standard]>=0.34.0
+sqlalchemy>=2.0.36
+pydantic>=2.10.4

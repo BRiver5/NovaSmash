@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+venv/
+.venv/
+__pycache__/
+*.db
+.DS_Store
+release/

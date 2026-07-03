@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "NovaSmash",
+    "slug": "novasmash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "novasmash",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#14142B",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#14142B"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.novasmash.app"
+    },
+    "android": {
+      "package": "com.novasmash.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#14142B",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/PressStart2P-Regular.ttf"]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
